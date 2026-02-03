@@ -9,6 +9,7 @@ Sigue estos pasos para levantar el entorno:
    ```
 2. **Levantar CLuster**
    ```bash
+   docker-compose down -v
    docker-compose up -d
    ```
 ## ⚙️ Configuración del Clúster (Asociar Workers)
